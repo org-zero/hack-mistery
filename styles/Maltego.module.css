@@ -1,0 +1,43 @@
+.fullstack_container {
+
+
+    color: rgb(241, 241, 241);
+    background-color: #212121;
+    height: 70vh;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.505), rgba(15, 15, 15, 0.86)) , url(https://sathisharthars.files.wordpress.com/2014/05/screenshot-from-2014-05-14-113616.png) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .nmap_principal{
+    display: flex;
+  }
+  .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #8eff32;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .container {
+    border: 1px solid #343434;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: azure;
+    width: 49%;
+    margin-left: 10px;
+    margin-top: 3vh;
+  }
+  
+  .top {
+    padding: 10px;
+    background: #000000;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .content {
+    padding: 10px;
+  }

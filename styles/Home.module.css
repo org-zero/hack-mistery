@@ -1,0 +1,101 @@
+
+
+.hack {
+  border-radius: 50%;
+  border: solid 7px rgb(72, 255, 0);
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes example {
+  0%   {  top:0px;}
+  25%  {  top:0px;}
+  50%  {  top:10px;}
+  75%  {  top:10px;}
+  100% {  top:0px;}
+}
+
+
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+.text_machine { 
+	position: relative; 
+	float: left;
+	background:rgb(17, 17, 17);
+	color: #52ff0e;
+	font-size: 1.5em;
+  margin-top: 30px;
+}
+
+.text_machine span {
+    position:absolute;
+    right:0;
+    width:0;
+    background:rgb(17, 17, 17);
+    border-left: 1px solid #000;
+    animation: escribir 1s steps(40) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+
+
+.progress_bar {
+  position: relative;
+  height: 20px;
+  width: 200px;
+  background: white;
+  border: 2px solid rgb(108, 237, 52);
+  background-color: rgb(54, 55, 54);
+  box-shadow: 0 0 32px rgb(0, 255, 4);
+}
+
+.progress_fill {
+  position: absolute;
+  height: 20px;
+  width: 0%;
+  animation: progress_forward 5.7s infinite;
+  background: rgb(45, 89, 9);
+  background: linear-gradient(
+    90deg,
+    rgb(72, 212, 29) 0%,
+    rgb(60, 255, 0) 100%
+  );
+}
+
+@keyframes progress_forward {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+} ;
+
+
+@media only screen and (max-width: 600px) {
+  .init_h1 {
+
+  width: 100%;
+  }
+
+
+  
+}
